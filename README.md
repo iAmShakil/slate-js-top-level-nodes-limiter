@@ -1,5 +1,5 @@
 ### `slate-js-top-level-nodes-limiter`
-A [**Slate**](https://github.com/ianstormtaylor/slate) plugin to run a callback function on every change when the specified limit for the top level nodes is reached. The callback functions are provided the `change` method as an argument when invoked.
+A [**Slate**](https://github.com/ianstormtaylor/slate) plugin to run a callback function on every change when the specified limit for the top level nodes is reached. The callback functions are provided the `change` object as an argument when invoked.
 
 ```js
 import topNodesLimiter from 'slate-js-top-level-nodes-limiter'
