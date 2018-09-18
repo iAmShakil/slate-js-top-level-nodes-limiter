@@ -1,0 +1,15 @@
+{
+  "name": "slate-js-top-nodes-limiter",
+  "version": "1.0.0",
+  "description": "Slate.js plugin to limit the number of top nodes in a documnet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slate.js",
+    "JavaScript"
+  ],
+  "author": "Shakil Ahmed",
+  "license": "ISC"
+}
