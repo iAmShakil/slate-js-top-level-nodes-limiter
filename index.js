@@ -21,7 +21,7 @@ function topLevelBlockLimiter (options = throwIfMissing('options'), overLimitCb 
   if (!options.limit || isNaN(options.limit)) throw new Error('A limit is not set or is not a number')
   return {
     onChange (change) {
-      var topLevelBlocksLength = props.value.document.nodes.size
+      var topLevelBlocksLength = change.value.document.nodes.size
       if (topLevelBlocksLength > options.limit) {
         overLimitCb(change)
       } else {
