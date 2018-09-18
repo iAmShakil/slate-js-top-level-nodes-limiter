@@ -5,8 +5,6 @@ A [**Slate**](https://github.com/ianstormtaylor/slate) plugin to run a callback 
 import topNodesLimiter from 'slate-js-top-level-nodes-limiter'
 import { Editor } from 'slate-react'
 
-
-
 const overLimitCb = (change) => {
     // do something    
 }

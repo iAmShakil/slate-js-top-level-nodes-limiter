@@ -1,15 +1,20 @@
 {
-  "name": "slate-js-top-nodes-limiter",
+  "name": "slate-js-top-level-nodes-limiter",
   "version": "1.0.0",
-  "description": "Slate.js plugin to limit the number of top nodes in a documnet.",
+  "description": "Slate.js plugin to limit the number of top level nodes in a documnet.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "slate.js",
+    "React",
     "JavaScript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iAmShakil/slate-js-top-level-nodes-limiter.git"
+  },
   "author": "Shakil Ahmed",
   "license": "ISC"
 }
